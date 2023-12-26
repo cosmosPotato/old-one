@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  line-height:2;
+  margin: 50px auto 0px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.65rem;
+  color: #D3CEDF;
+}
+h2 {
+  font-weight:normal;
+color: #D3CEDF;
+  font-size: 2.50rem;
+  font-family: 'Indie Flower', cursive;
+  margin: 0px auto auto auto;
+}
+h3 {
+  color:#9CB4CC;
+  font-size:30px;
+
+}
+a {
+  color: #D3CEDF;
+}
+
+.cloud-two {
+  position: absolute;
+  left: 200px;
+}
+
+.top-container {
+  background-color: #937DC2;
+  position: relative;
+  padding-top: 100px;
+}
+
+p {
+  font-family: 'Space Mono', monospace;
+
+}
+
+.cloud-one {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.panda {
+  height: 200px;
+  margin-top: 20px;
+  transition: height 0.2s ease-out;
+}
+
+.panda:hover {
+  height: 225px;
+}
+
+.man {
+  height: 150px;
+  float:left;
+  margin-right:20px;
+}
+.skill-row {
+  width:50%;
+  margin:100px auto 100px auto;
+}
+.astronaut {
+  height:250px;
+
+  transition: height 0.2s ease-out;
+  padding-bottom: 0px;
+}
+.astronaut:hover {
+  height:300px;
+}
+.bottom-container {
+  background-color:#66BFBF;
+  height:200px;
+  margin-top:100px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4,  #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top:100px;
+}
+
+.btn:hover {
+  background:  #30e3cb;
+  background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.surname {
+  position:relative;
+  top:100px;
+
+}
+.footer-link {
+  position:relative;
+  top:50px;
+  text-decoration: none;
+  padding:30px;
+  font-size:20px;
+}
+.contact-me {
+  margin-bottom:50px;
+  margin-top:100px;
+}
+.profile {
+  padding-bottom:100px;
+}
+.skills {
+  padding-top:100px;
+}
+hr {
+  border:dotted;
+  width:5%;
+  border-width:7px;
+  border-bottom:none;
+  color:#ADCF9F;
+}
+.contactme {
+  margin-bottom:50px;
+}
